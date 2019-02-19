@@ -1,0 +1,1 @@
+wget -rkpNc -e robots=off <web address>
