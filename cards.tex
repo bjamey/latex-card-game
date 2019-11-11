@@ -1,0 +1,174 @@
+
+\documentclass[a4paper,landscape]{article}
+
+%   Load packages
+\input{libs.tex}
+%   Load color definitions
+\input{colors.tex}
+%   load card commands
+\input{tikzcards.tex}
+
+%   Dummy-Contents
+\newcommand{\contentA}{Neatly clever quote \\ referring to the map of a fictional character.}
+\newcommand{\contentB}{Impact: \\ [5pt] Draw 2 cards, take 3 gold, kill everything, run away ...}
+
+\begin{document}
+\begin{center}
+    \pagestyle{empty}
+
+%   V-space correction for long titles
+% \cardtitle {\vspace{-5mm} VERY LONG TITLE}
+
+    \begin{tikzpicture}
+        \cardbackground{img/scifi.jpg}
+        \cardtypeItem
+        \cardtitle{The butcher}
+        \cardcontent{Be my enemy and it is the last thing you do.}{M'festing Time: 1 action \\ 	Range: Self \\ Duration: Conc. Up to 1 min}
+        \cardprice{5}
+        \cardborder
+%       \ Debug card
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/fantasy.jpg}
+%      \ Debug card
+        \cardtypeAbility
+        \cardtitle{The guard}
+        \cardcontent{Do not worry, I'll make it long and extremely painful for you.}{\contentB}
+        \cardprice{35}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeCharacter
+        \cardtitle{Mighty butcher}
+        \cardcontent{Eye, captain. We will send these Landlubbers over the planks!}{\contentB}
+        \cardprice{435}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeTest
+        \cardtitle{Bad guard}
+        \cardcontent{Be a guest in my modest domicile.}{\contentB}
+        \cardprice{$\infty$}
+        \cardborder
+    \end{tikzpicture}
+
+    \vspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeItem
+        \cardtitle{Mighty Guardian}
+        \cardcontent{Meow.}{\contentB}
+        \cardprice{5}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeAbility
+        \cardtitle{Frail butcher}
+        \cardcontent{\contentA}{\contentB}
+        \cardprice{35}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeCharacter
+        \cardtitle{Just Guardian}
+        \cardcontent{\contentA}{\contentB}
+        \cardprice{435}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardtypeTest
+        \cardtitle{Which butcher?}
+        \cardcontent{\contentA}{\contentB}
+        \cardprice{$\infty$}
+        \cardborder
+    \end{tikzpicture}
+    %new page ------------------------------------------------------------------
+	 \begin{tikzpicture}
+        \cardbackground{img/scifi.jpg}
+        \cardtypeItem
+        \cardtitle{The butcher}
+        \cardcontent{Be my enemy and it is the last thing you do.}{M'festing Time: 1 action \\ 	Range: Self \\ Duration: Conc. Up to 1 min}
+        \cardprice{5}
+        \cardborder
+%       \ Debug card
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/fantasy.jpg}
+%      \ Debug card
+        \cardtypeAbility
+        \cardtitle{The guard}
+        \cardcontent{Do not worry, I'll make it long and extremely painful for you.}{\contentB}
+        \cardprice{35}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeCharacter
+        \cardtitle{Mighty butcher}
+        \cardcontent{Eye, captain. We will send these Landlubbers over the planks!}{\contentB}
+        \cardprice{435}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeTest
+        \cardtitle{Bad guard}
+        \cardcontent{Be a guest in my modest domicile.}{\contentB}
+        \cardprice{$\infty$}
+        \cardborder
+    \end{tikzpicture}
+
+    \vspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeItem
+        \cardtitle{Mighty Guardian}
+        \cardcontent{Meow.}{\contentB}
+        \cardprice{5}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeAbility
+        \cardtitle{Frail butcher}
+        \cardcontent{\contentA}{\contentB}
+        \cardprice{35}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardbackground{img/placeholder.png}
+        \cardtypeCharacter
+        \cardtitle{Just Guardian}
+        \cardcontent{\contentA}{\contentB}
+        \cardprice{435}
+        \cardborder
+    \end{tikzpicture}
+    \hspace{5mm}
+    \begin{tikzpicture}
+        \cardtypeTest
+        \cardtitle{Which butcher?}
+        \cardcontent{\contentA}{\contentB}
+        \cardprice{$\infty$}
+        \cardborder
+    \end{tikzpicture}
+
+
+
+
+
+\end{document}
